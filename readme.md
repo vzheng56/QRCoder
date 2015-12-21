@@ -57,6 +57,8 @@ QRCodeData qrCodeData = qrGenerator.CreateQrCode("The text which should be encod
 UnityQRCode qrCode = new UnityQRCode(qrCodeData);
 Texture2D qrCodeImage = qrCode.GetGraphic(20);
 ```
+![unitycode](http://unicreatetech.com/yufu/4a82386d-9837-4dd7-ac20-01ee92ae3f85/)
+![unityscene](http://unicreatetech.com/yufu/f3cc5373-8701-473a-9276-cb8fce389adb/)
 
 ##PayloadGenerator.cs - Generate QR code payloads
 
